@@ -1,0 +1,29 @@
+CREATE TABLE horse_racing (
+	race_ID TEXT NOT NULL,
+	Date DATE, -- Date time format (yyyy-mm-dd)
+	course TEXT,
+	race_name TEXT,
+	Distance_covered INTEGER,
+	Track_condition TEXT,
+	season INTEGER,
+	race_group TEXT,
+	race_type TEXT,
+	Race_Money DEC,
+	horse_name TEXT,
+	Trainer TEXT,
+	Jockey TEXT,
+	Track_position DEC,
+	age INTEGER,
+	Weight INTEGER,
+	Gear TEXT,
+	Top_speed DEC,
+	sire TEXT,
+	dam TEXT,
+	damsire TEXT,
+	comment TEXT,
+	Winner INTEGER,
+	prize_money DEC
+);
+
+SELECT * FROM horse_racing;
+SELECT course FROM horse_racing;
